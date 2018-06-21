@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Hind:500" rel="stylesheet">
-    <link rel="stylesheet" href="css/1_style.css"> 
+    <link rel="stylesheet" href="css/1_style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -16,29 +16,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/components/message.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/components/label.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-   <style>
-       
-   </style>
-        
+    <style>
+    </style>
+
 </head>
 
 <body>
     <!--NAVIGATION BAR-->
-    <nav id="navupper" class="black col s12">
-            <div class="nav-wrapper container">
-              <a href="#" class="brand-logo"><small class="grey-text">Customer care (888) 1234-567</small></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="" class="grey-text">Login</a></li>
-                <li><a href="" class="grey-text">Register</a></li>
-                <li><a href="" class="grey-text">More</a></li>
-              </ul>
-            </div>
+    <nav id="navupper" class="black col s12" style="transition:all .5s linear">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <small class="grey-text">Customer care (888) 1234-567</small>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="" class="grey-text">Login</a>
+                </li>
+                <li>
+                    <a href="" class="grey-text">Register</a>
+                </li>
+                <li>
+                    <a href="" class="grey-text">More</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div id="navdown" class="navbar-fixed">
         <nav class="nav-extended z-depth-0 black">
             <div class="nav-wrapper container" id="mywalletnav">
                 <a href="index.html" class="brand-logo" style="padding-left:50px;">
-                    <img class="left" style="width:100px;" src="https://cdn.dribbble.com/users/26792/screenshots/2915937/figures_02_1x.jpg" alt="">
+                    <img class="left" style="width:80px;" src="https://cdn.dribbble.com/users/26792/screenshots/2915937/figures_02_1x.jpg" alt="">
                     <b>LingPill</b>
                 </a>
                 <ul class="right hide-on-med-and-down myappmenu">
@@ -62,330 +69,678 @@
             </div>
         </nav>
     </div>
-        <!--SIDEBAR-->
+    <!--SIDEBAR-->
 
-        <ul id="slide-out" class="side-nav" style="width:250px;border-radius:0px;padding:0px;">
-            <li>
-                <div class="user-view">
-                    <div class="background" style="background-image:url('images/patter.png');background-size:cover;background-position: 0px -90px; background-repeat: no-repeat;">
-                    </div>
-                    <a href="#!user">
-                        <img class="circle" src="images/avatar.png">
-                    </a>
-                    <a href="#!name">
-                        <span class="white-text name">John Doe</span>
-                    </a>
-                    <a href="#!email">
-                        <span class="white-text email">jdandturk@gmail.com</span>
-                    </a>
+    <ul id="slide-out" class="side-nav" style="width:250px;border-radius:0px;padding:0px;">
+        <li>
+            <div class="user-view">
+                <div class="background" style="background-image:url('images/patter.png');background-size:cover;background-position: 0px -90px; background-repeat: no-repeat;">
                 </div>
-            </li>
-            <li class="active">
-                <a href="index.html">
-                    <i class="material-icons left ">account_balance_wallet</i>Wallet</a>
-            </li>
-            <li class="no-padding">
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header">Dropdown
-                            <i class="material-icons">arrow_drop_down</i>
-                        </a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>
-                                    <a href="#!">First</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Second</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Third</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Fourth</a>
-                                </li>
-                            </ul>
+                <a href="#!user">
+                    <img class="circle" src="images/avatar.png">
+                </a>
+                <a href="#!name">
+                    <span class="white-text name">John Doe</span>
+                </a>
+                <a href="#!email">
+                    <span class="white-text email">jdandturk@gmail.com</span>
+                </a>
+            </div>
+        </li>
+        <li class="active">
+            <a href="index.html">
+                <i class="material-icons left ">account_balance_wallet</i>Wallet</a>
+        </li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header">Dropdown
+                        <i class="material-icons">arrow_drop_down</i>
+                    </a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>
+                                <a href="#!">First</a>
+                            </li>
+                            <li>
+                                <a href="#!">Second</a>
+                            </li>
+                            <li>
+                                <a href="#!">Third</a>
+                            </li>
+                            <li>
+                                <a href="#!">Fourth</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="new_orderbook.html">
+                <i class="material-icons left">monetization_on</i>Dentacoin</a>
+        </li>
+        <li>
+            <a href="rate_new_anguler.html">
+                <i class="material-icons left">assessment</i>Rates</a>
+        </li>
+        <li>
+            <a href="kyc.html">
+                <i class="material-icons left">chrome_reader_mode</i>KYC</a>
+        </li>
+        <li>
+            <a href="users.html">
+                <i class="material-icons left">account_circle</i>User Info</a>
+        </li>
+        <li>
+            <a href="">
+                <i class="material-icons left">pan_tool</i>Become Seller</a>
+        </li>
+        <li>
+            <a href="">
+                <i class="material-icons left">pan_tool</i>Become Seller</a>
+        </li>
+        <li>
+            <a href="">
+                <i class="material-icons left">transfer_within_a_station</i>LogOut</a>
+        </li>
+    </ul>
+
+    <!--SIDEBAR-END-->
+
+    <div class="row" style="width:100%;height:100%;background-image:url('../img/sexyCouple.png');background-size:cover;">
+        <div class="col s6"></div>
+        <div class="col s4 offset-s1 z-depth-5" style="background:rgba(255,255,255,0.5);">
+            <center>
+                <h6>
+                    <b>BOOK ORDER, अभी कॉल करें</b>
+                </h6>
+                <h4>
+                    <b>
+                        <i class="fas fa-phone"></i> 1234567890</b>
+                </h4>
+                <h5>
+                    <b>PENIS ENLARGEMENT :
+                        <br> UP TO 5 INCHES!
+                        <br>
+                        <br> लिंग में वृद्धि: 5 इंच तक!</b>
+                </h5>
+                <h5>
+                    <b>Tell Us Where to Send</b>
+                </h5>
+                <h5>
+                    <b>YOUR ORDER
+                        <br> आपका आर्डर</b>
+                </h5>
+                <fieldset class="white card z-depth-5" style="border-radius:10px;">
+                    <legend class="ui button red">ORDER NOW</legend>
+                    <form>
+                        <div class="input-field">
+                            <input type="text" id="Mobile">
+                            <label for="Mobile">Mobile No</label>
                         </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="new_orderbook.html">
-                    <i class="material-icons left">monetization_on</i>Dentacoin</a>
-            </li>
-            <li>
-                <a href="rate_new_anguler.html">
-                    <i class="material-icons left">assessment</i>Rates</a>
-            </li>
-            <li>
-                <a href="kyc.html">
-                    <i class="material-icons left">chrome_reader_mode</i>KYC</a>
-            </li>
-            <li>
-                <a href="users.html">
-                    <i class="material-icons left">account_circle</i>User Info</a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="material-icons left">pan_tool</i>Become Seller</a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="material-icons left">pan_tool</i>Become Seller</a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="material-icons left">transfer_within_a_station</i>LogOut</a>
-            </li>
-        </ul>
+                        <div class="input-field">
+                            <input type="text" id="Address">
+                            <label for="Address">Delivery Adress</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="Product">
+                            <label for="Product">Product</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="submit" value="Submit" class="col s12 ui button black red-text" />
+                        </div>
+                    </form>
+                </fieldset>
+                <br>
 
-        <!--SIDEBAR-END-->
+            </center>
+        </div>
+    </div>
 
-        <div class="row" style="width:100%;height:100%;background-image:url('../img/sexyCouple.png');background-size:cover;">
-            <div class="col s6"></div>
-            <div class="col s4 offset-s1 z-depth-5" style="background:rgba(255,255,255,0.5);">
+    <div class="row white">
+        <div class="container red-text center">
+            <div class="col s12" style="height: 100px;"></div>
+            <h3 class="red-text">
+                <b>
+                    THE PROBLEM MALE VIRLITY DECLINES WITH AGE
+                    <br> उम्र के साथ पुरुषों के पुरुषार्थ में गिरावट
+                </b>
+            </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
                 <center>
-                    <h6><b>BOOK ORDER, अभी कॉल करें</b></h6>
-                    <h4><b><i class="fas fa-phone"></i> 1234567890</b></h4>
-                    <h5><b>PENIS ENLARGEMENT : <br> UP TO 5 INCHES! <br><br>
-                            लिंग में वृद्धि: 5 इंच तक!</b></h5>
-                    <h5><b>Tell Us Where to Send</b></h5>
-                    <h5><b>YOUR ORDER <br>
-                    आपका आर्डर</b></h5>
-                    <fieldset class="white card z-depth-5" style="border-radius:10px;">
-                        <legend class="ui button red">ORDER NOW</legend>
-                        <form>
-                            <div class="input-field">
-                                <input type="text" id="Mobile">
-                                <label for="Mobile">Mobile No</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="text" id="Address">
-                                <label for="Address">Delivery Adress</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="text" id="Product">
-                                <label for="Product">Product</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="submit" value="Submit" class="col s12 ui button black red-text"/>
-                            </div>
-                        </form>
-                    </fieldset>
-                    <br>
-                    
+                    <h5>Male sexual power isn't lasting. Maturing frequently causes a relentless decrease in imperativeness and
+                        virility, which has a direct and negative effect on erections, sexual stamina and backbone. A portion
+                        of the manifestations that may keep you from fulfilling the lady in your life may include:
+                        <br>
+                        <br>
+                        <br> पुरुष यौन शक्ति स्थायी नहीं है अक्सर उम्र बढ़ने के कारण जोश और पुरुषार्थ में लगातार कमी आती है,
+                        जिसके कारण ईरेक्शन, लैंगिक ऊर्जा और मेहनत पर प्रत्यक्ष और नकारात्मक प्रभाव पड़ता है। अभिव्यक्तियों
+                        का एक हिस्सा जो आपको अपने जीवन में महिला को संतुष्ट करने से रोक सकता है:</h5>
+
                 </center>
+
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col s3">
+            <center>
+                <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
+            </center>
+        </div>
+        <div class="col s3">
 
+            <center>
+                <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
+            </center>
+        </div>
+        <div class="col s3">
+
+            <center>
+                <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
+            </center>
+        </div>
+        <div class="col s3">
+
+            <center>
+                <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
+            </center>
+        </div>
+    </div>
+
+
+    <div>
         <div class="row white">
             <div class="container red-text center">
                 <div class="col s12" style="height: 100px;"></div>
-                <h3 class="red-text"><b>
-                    THE PROBLEM MALE VIRLITY DECLINES WITH AGE <br>
-                    उम्र के साथ पुरुषों के पुरुषार्थ में गिरावट
+                <h2 class="blue-text">
+                    <b>
+                        HOW LING BOOSTER HELPS
+                        <br> FULFILL SEXUAL PERFORMANCE
+                        <br> पूर्ण करें योन कार्यक्षमता
                     </b>
-                    </h3>
-                <br><br><br><br>
-                <div class="row">
+                </h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="col s6">
+                    <br>
+                    <div class="red-text">
+                        <i>BY USING THIS WONDERFUL ENHANCEMENT CREAM FOR MEN GAIN UP TO 2 INCHES GROWTH IN PENIS SIZE
+                            <br>
+                            <br> पुरुषों के लिए बढ़िया इस औषधि का उपयोग करके लिंग के आकार में 2 इंच वृद्धि का लाभ उठाएं</i>
+                    </div>
+                    <br>
+                    <div class="collection">
+                        <li class="collection-item blue-text text-darken-4">
+                            <i>1 bottle of Ling Booster will yield a penis enlargement of 2.06 cm or more.
+                                <br>
+                                <br> लिंग बूस्टर की 1 बोतल 2.06 सेमी या उससे अधिक का लिंग इजाफ़ा देगी।</i>
+                        </li>
+                        <br>
+                        <li class="collection-item blue-text text-darken-4">
+                            <i>2 bottles package will yield an enlargement of up to 3.02 cm or more.
+                                <br>
+                                <br> लिंग बूस्टर की 2 बोतल 3.02 सेमी या उससे अधिक का लिंग इजाफ़ा देगी।</i>
+                        </li>
+                    </div>
+
+                    <div class="red-text">
+                        <i>LING BOOSTER IS PREPARED ON A FORMULA BASED ON HERBAL INGREDIENTS
+                            <br>
+                            <br> ख़ासकर हर्बल सामग्री पर आधारित फार्मूला तैयार किया गया है, LING BOOSTER</i>
+                    </div>
+                    <br>
+                    <div class="collection">
+                        <li class="collection-item blue-text text-darken-4">
+                            <i>Helps in strengthening and keeping the erection for an extended time.
+                                <br>
+                                <br> लम्बे समय के लिए लिंग के खड़ेपन और मजबूती में सहायता करता है</i>
+                        </li>
+                        <br>
+                        <li class="collection-item blue-text text-darken-4">
+                            <i>Improves the stamina and energy.
+                                <br>
+                                <br> शक्ति और ऊर्जा में वृद्धि करता है</i>
+                        </li>
+                    </div>
+                </div>
+                <div class="col s6">
                     <center>
-                        <h5>Male sexual power isn't lasting. Maturing frequently causes a relentless decrease in imperativeness and virility, which has a direct and negative effect on erections, sexual stamina and backbone. A portion of the manifestations that may keep you from fulfilling the lady in your life may include:
-                            <br><br><br> पुरुष यौन शक्ति स्थायी नहीं है अक्सर उम्र बढ़ने के कारण जोश और पुरुषार्थ में लगातार कमी आती है, जिसके कारण ईरेक्शन, लैंगिक ऊर्जा और मेहनत पर प्रत्यक्ष और नकारात्मक प्रभाव पड़ता है। अभिव्यक्तियों का एक हिस्सा जो आपको अपने जीवन में महिला को संतुष्ट करने से रोक सकता है:</h5>
-                    
+                        <img style="width:100%;" src="http://lingbooster.in/content/images/how-couple-pic.jpg" alt="">
                     </center>
-                    
                 </div>
             </div>
-        </div>
-        <div class="row">
-                <div class="col s3">
-                        <center>
-                            <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
-                        </center>
-                    </div>
-                    <div class="col s3">
-                        
-                        <center>
-                            <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
-                        </center>
-                    </div>
-                    <div class="col s3">
-                        
-                        <center>
-                            <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
-                        </center>
-                    </div>
-                    <div class="col s3">
-                        
-                        <center>
-                            <img src="http://lingbooster.in/content/images/reality-pic1.jpg" alt="">
-                        </center>
-                    </div>
-        </div>
 
-
-        <div class="row white">
-                <div class="container red-text center">
-                    <div class="col s12" style="height: 100px;"></div>
-                    <h2 class="blue-text"><b>
-                            HOW LING BOOSTER HELPS <br>
-                            FULFILL SEXUAL PERFORMANCE <br>
-                            पूर्ण करें योन कार्यक्षमता
-                        </b>
-                    </h2>
-                   
-                </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <div class="col s6">
-                <br>
-                <h5 class="red-text"><b>BY USING THIS WONDERFUL ENHANCEMENT CREAM FOR MEN GAIN UP TO 2 INCHES GROWTH IN PENIS SIZE
-                    <br><br> पुरुषों के लिए बढ़िया इस औषधि का उपयोग करके लिंग के आकार में 2 इंच वृद्धि का लाभ उठाएं</b></h5>
-                    <br>
-                    <p class="ui message blue-text text-darken-4"><b>1 bottle of Ling Booster will yield a penis enlargement of 2.06 cm or more. <br>
-                        <br> लिंग बूस्टर की 1 बोतल 2.06 सेमी या उससे अधिक का लिंग इजाफ़ा देगी।</b></p>
-                    <br>
-                    <p class="ui message blue-text text-darken-4"><b>2 bottles package will yield an enlargement of up to 3.02 cm or more. <br>
-                       <br> लिंग बूस्टर की 2 बोतल 3.02 सेमी या उससे अधिक का लिंग इजाफ़ा देगी।</b></p>
-            </div>
-            <div class="col s6">
-                <center>
-                    <img style="width:100%;" src="https://media.giphy.com/media/qoyBu9Se502qs/giphy.gif" alt="">
-                </center>
-            </div>
-        </div>
-        <div class="col s12" style="height:100px;"></div>
-            <div class="col s12">
-                <div class="col s6">
-                <br>
-                <h5 class="red-text"><b>LING BOOSTER IS PREPARED ON A FORMULA BASED ON HERBAL INGREDIENTS <br><br>
-                        ख़ासकर हर्बल सामग्री पर आधारित फार्मूला तैयार किया गया है, LING BOOSTER</b></h5>
-                    <br>
-                    <p class="ui message blue-text text-darken-4"><b>Helps in strengthening and keeping the erection for an extended time. <br>
-                           <br> लम्बे समय के लिए लिंग के खड़ेपन और मजबूती में सहायता करता है</b></p>
-                    <br>
-                    <p class="ui message blue-text text-darken-4"><b>Improves the stamina and energy. <br>
-                           <br> शक्ति और ऊर्जा में वृद्धि करता है</b></p>
-            </div>
-            <div class="col s6">
-                <center>
-                    <img style="width:100%;" src="http://lingbooster.in/content/images/how-couple-pic.jpg" alt="">
-                </center>
-            </div>
         </div>
         <div class="col s12">
             <center class="container">
-                <h4 class="blue-text text-darken-4"><b>All orders are 100% Satisfaction Guaranteed. That is the means by which certain we are from more than 15 years of making this earth shattering item.</b></h4>
-                <h3 class="blue-text text-darken-4"><b>सभी आर्डर पर 100% संतुष्टि की गारंटी है।</b></h3>
+                <h5 class="blue-text text-darken-4">
+                    <i>All orders are 100% Satisfaction Guaranteed. That is the means by which certain we are from more than 15
+                        years of making this earth shattering item.</i>
+                </h5>
+                <h4 class="blue-text text-darken-4">
+                    <i>सभी आर्डर पर 100% संतुष्टि की गारंटी है।</i>
+                </h4><br><br>
             </center>
         </div>
-        </div>
-
-
-
-
-
-
-
-        <div class="row black">
-            <div class="container red-text">
-                <br><br>
-                <h4><b>OUR HISTORY</b></h4>
-                <h1><b>ABOUT US</b></h1>
-                <br><br><br><br>
-                <div class="col s4">
-                    <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/736x/25/31/fb/2531fbc211b8e73f414a0d9a4fd8c6ba--eros-passion.jpg');background-size:cover;">
-                        <br><br><br>
-                        <h5 class="white-text"><b>OUR HISTORY</b></h5>
-                        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
-                        <br><br>
-                        <a href="" class="ui button red">READ MORE</a>
-                        <br><br><br><br>
+    </div>
+    <div class="row">
+                <div class="col s10 offset-s1 blue darken-4" style="padding:10px;border-radius:10px;">
+                    <div class="col s8 blue darken-4" style="height:100px;overflow: hidden;">
+                            <div class="carousel carousel-slider center" data-indicators="true" style="height:200px !important;">
+                                    <div class="carousel-item blue darken-4 white-text" href="#one!">
+                                        <p>“ये शुरू करने के बाद मैं एक बेहतर यौन जीवन का आनंद ले रहा हूं यह वास्तव में मेरी ऊर्जा बढ़ाता है और मुझे अपने साथी के साथ बिस्तर में सुखद अनुभव करने के लिए प्रोत्साहित करती हैं । बहुत बहुत धन्यवाद!”</p>
+                                    </div>
+                                    <div class="carousel-item blue darken-4 white-text" href="#two!">
+                                        <p>“ये शुरू करने के बाद मैं एक बेहतर यौन जीवन का आनंद ले रहा हूं यह वास्तव में मेरी ऊर्जा बढ़ाता है और मुझे अपने साथी के साथ बिस्तर में सुखद अनुभव करने के लिए प्रोत्साहित करती हैं । बहुत बहुत धन्यवाद!”</p>
+        
+                                    </div>
+                                    <div class="carousel-item blue darken-4 white-text" href="#three!">
+                                         <p>“ये शुरू करने के बाद मैं एक बेहतर यौन जीवन का आनंद ले रहा हूं यह वास्तव में मेरी ऊर्जा बढ़ाता है और मुझे अपने साथी के साथ बिस्तर में सुखद अनुभव करने के लिए प्रोत्साहित करती हैं । बहुत बहुत धन्यवाद!”</p>
+        
+                                    </div>
+                                    <div class="carousel-item blue darken-4 white-text" href="#four!">
+                                        <p>“ये शुरू करने के बाद मैं एक बेहतर यौन जीवन का आनंद ले रहा हूं यह वास्तव में मेरी ऊर्जा बढ़ाता है और मुझे अपने साथी के साथ बिस्तर में सुखद अनुभव करने के लिए प्रोत्साहित करती हैं । बहुत बहुत धन्यवाद!”</p>
+        
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="col s4">
+                        <center><a href="" class="ui button red large grey-text text-lighten-2">RUST TO <br><br>
+                            <span class="white-text" style="font-size:1.5em;"><b>ORDER NOW</b></span>
+                        </a></center>
                     </div>
                 </div>
+    </div>
+    <div class="row white" style="background:url('http://lingbooster.in/content/images/ingredient-background.jpg') no-repeat top center;">
+            <div class="container red-text center">
+                <div class="col s12" style="height: 100px;"></div>
+                <h3 class="blue-text text-darken-4">
+                    <b>
+                        MAJOR INGREDIENTS USED FOR
+                        <br> MALE ENHANCEMNET
+                    </b>
+                </h3>
+            </div>
+            <div class="col s12 ">
                 <div class="col s4">
-                    <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/564x/62/18/58/62185842b6ffc8e3b48ab5a71b7d8ccb--hot-couples-romantic-couples.jpg');background-size:cover;">
-                        <br><br><br>
-                        <h5 class="white-text"><b>OUR HISTORY</b></h5>
-                        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
-                        <br><br>
-                        <a href="" class="ui button red">READ MORE</a>
-                        <br><br><br><br>
-                    </div>
+                    <center>
+                        <img src="http://lingbooster.in/content/images/maca-pic.png" alt="">
+                    </center>
+                    <h6 class="right-align blue-text">MACA ( माका )</h6>
+                    <p class="right-align">Maca Root benefits include increased fertility in men , hormone balance, booster for the immune system, and
+                        increased energy, stamina, improved sexual function.</p>
+                    <p class="right-align">माका की जड़े पुरुषों में बढ़ती प्रजनन क्षमता, हार्मोन संतुलन, प्रतिरक्षा प्रणाली के लिए शक्ति और ऊर्जा में
+                        वृद्धि, सहनशक्ति, यौन क्रिया में लाभ पहुँचता है।</p>
                 </div>
+                <div class="col s4 offset-s4">
+                    <center>
+                        <img src="http://lingbooster.in/content/images/safedmusli-pic.png" alt="">
+                    </center>
+                    <h6 class="left-align blue-text">SAFED MUSLI ( सफ़ेद मूसली )</h6>
+                    <p class="left-align">Safed Musli is an amazing sexual power booster along with therapeutic properties. It prevents premature ejaculation
+                        and enhances libido, sperm count and fertility.</p>
+                    <p class="left-align">सफेद मुस्ली चिकित्सीय गुणों के साथ एक अद्भुत यौन शक्ति बूस्टर है। यह समयपूर्व उत्सर्जन को रोकता है और कामेच्छा,
+                        शुक्राणुओं की संख्या और प्रजनन क्षमता को बढ़ाता है|</p>
+                </div>
+            </div>
+            <div class="col s12" style="height:50px;"></div>
+            <div class="col s12">
                 <div class="col s4">
-                    <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/originals/9e/28/a8/9e28a8a5fdb0bb0c70e6d81a248db799.jpg');background-size:cover;">
-                        <br><br><br>
-                        <h5 class="white-text"><b>OUR HISTORY</b></h5>
-                        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
-                        <br><br>
-                        <a href="" class="ui button red">READ MORE</a>
-                        <br><br><br><br>
+                    <center>
+                        <img src="http://lingbooster.in/content/images/yohimbe-pic.png" alt="">
+                    </center>
+                    <h6 class="right-align blue-text">YOHIMBE ( योहिंबे )</h6>
+                    <p class="right-align">Yohimbe is taken by mouth arouse sexual excitement, for erectile dysfunction (ED), sexual problems. It contains
+                        a chemical called yohimbine which can increase blood flow and nerve impulses to the penis.</p>
+                    <p class="right-align">यॉइम्बे को यौन उत्तेजना पैदा करने के लिए मुंह से लिया जाता है, सीधा होने के लायक़ दोष (ईडी), यौन समस्याएं।
+                        इसमें एक रासायनिक नाम होता है जो योहिम्बिन कहा जाता है जो लिंग के प्रवाह और तंत्रिका आवेग को बढ़ा सकता
+                        है।</p>
+                </div>
+                <div class="col s4 offset-s4">
+                    <center>
+                        <img src="http://lingbooster.in/content/images/ashwagandha-pic.png" alt="">
+                    </center>
+                    <h6 class="left-align blue-text">ASHWAGANDHA ( अशवगंधा )</h6>
+                    <p class="left-align">Its healing properties help in improving sexual energy and effectiveness in men. It increases the hardness
+                        and duration of erections.</p>
+                    <p class="left-align">इसकी चिकित्सा गुण पुरुषों में यौन ऊर्जा और प्रभावशीलता में सुधार करने में सहायता करते हैं। इसके उपजोग से
+                        लिंग की कठोरता और सम्भोग अवधि बढ़ जाती है।</p>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="col s6 offset-s3">
+                    <center>
+                        <img src="http://lingbooster.in/content/images/horny-pic.png" alt="">
+                    </center>
+                    <h6 class="center-align blue-text">HORNY GOAT WEED ( हॉर्नी गॉट वीड )</h6>
+                    <p class="center-align">Horny goat weed is used for sexual performance problems including erectile dysfunction (ED) and involuntary
+                        ejaculation. It is also used to arouse sexual desire.and duration of erections.</p>
+                    <p class="center-align">हॉर्नी गॉट वीड का उपयोग यौन क्रियात्मक समस्याओं के लिए किया जाता है जिसमें स्तंभन दोष (ईडी) और अनैच्छिक स्खलन
+                        शामिल है। यह यौन इच्छा पैदा करने और खड़ापन की अवधि के लिए भी प्रयोग किया जाता है ।</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12" style="height:100px;"></div>
+        <div class="col s11 offset-s1">
+            <div class="col s5">
+                <img src="http://lingbooster.in/content/images/effect-model-pic.png" alt="">
+            </div>
+            <div class="col s7">
+                <h3><b>The Effects Of (प्रभाव)</b></h3>
+                <h2><b>LING BOOSTER</b></h2>
+                <div class="col s12">
+                    <h5 class="blue-text text-darken-4"><b>ENHANCE STAYING POWER (ऊर्जा में वृद्धि)</b></h5>
+                    <div class="col s10" style="padding:0px;">
+                            Now you can hold for as much longer as you want. Ling Booster helps in getting rid of problem of premature ejaculation. You can go on for hours as your staying power and duration is increased. <br><br>
+                            अब आप उतने समय तक रोक सकते हैं जितना आप चाहें। Ling Booster जल्दी स्खलन की समस्या से छुटकारा पाने में मदद करता है आप घंटों तक जा सकते हैं क्योंकि आपके रोकने की शक्ति और अवधि बढ़ जाती है।
                     </div>
+                    <br><br>
+                </div>
+                <div class="col s12">
+                    <h5 class="blue-text text-darken-4"><b>GET FIRMER AND LONG LASTING ERECTION (लम्बा और कड़क खड़ापन )</b></h5>
+                    <div class="col s10" style="padding:0px;">
+                            You do not need to be embarrassed anymore! <b>Get rock-hard erections</b> which last longer. Both of you do not have to wait now for a solid erection to enjoy sex. Go on whenever you are in mood.<br><br>
+                            आपको शर्मिंदा होने की ज़रूरत नहीं है! <b>पत्थर जैसा कड़कपन</b> प्राप्त करें लंबे समय तक। आप दोनों को सेक्स का आनंद लेने के लिए अब इंतजार नहीं करना पड़ेगा जब भी आप मूड में हैं, तभी शुरू करें ।
+                    </div>
+                    <br><br>
+                </div>
+                <div class="col s12">
+                    <h5 class="blue-text text-darken-4"><b>ENLARGE PENIS SIZE (लिंग का आकार बढ़ाता है)
+                        </b></h5>
+                    <div class="col s10" style="padding:0px;">
+                            Ling Booster naturally boosts the size of your penis. Depending upon the different time, one can increase the length of penis upto 2 inches. It even enhances the width of your penis<br><br>
+                            यह स्वाभाविक रूप से आपके लिंग के आकार को बढ़ाता है| अलग-अलग व्यक्ति पर निर्भर करता है, लिंग की लंबाई 2 इंच तक बढ़ा सकती है| यह आपके लिंग की चौड़ाई भी बढ़ाता है।
+                    </div>
+                    <br><br>
+                </div>
+                <div class="col s12">
+                    <h5 class="blue-text text-darken-4"><b>IMPROVED SEXUAL CONFIDENCE (यौन संभोग बढ़ाए )</b></h5>
+                    <div class="col s10" style="padding:0px;">
+                            This cream also boost testosterones which assist in getting prolonged sex drives. Corpora Cavarnosa a part of penis is a mass of erectile tissues which contain blood vessels an plays an important part in gaining erection.<br><br>
+                            ये क्रीम टेस्टोस्टेरोन को बढ़ावा देती हैं जो लंबे समय तक सेक्स ड्राइव में सहायता करती हैं। कॉरपोरा कैवर्नासा लिंग का एक हिस्सा सीधा होने के लायक़ ऊतकों का एक द्रव्यमान होता है जिसमें रक्त वाहिकाओं होते हैं जो निर्माण प्राप्त करने में महत्वपूर्ण भूमिका निभाता है।
+                    </div>
+                    <br><br>
                 </div>
             </div>
         </div>
-        <div class="row" style="background-image:url('http://www.newsnazar.com/wp-content/uploads/2015/12/romance.jpg');background-size:cover;background-attachment: fixed;">
+    </div>
+
+
+    <div class="row" style="padding:0px;">
+        <div class="col s10 offset-s1" style="padding:0px;background: #123879;border-radius:10px;">
+            <div class="col s4">
+                <center>
+                    <br><br>
+                    <a href="" class="ui button red huge" style="border-radius:50px;"><b>ORDER NOW</b></a>
+                    <div>
+                        <br>
+                        <img src="http://lingbooster.in/content/images/instant-icon.jpg" alt="">
+                        <img src="http://lingbooster.in/content/images/cod-icon.jpg" alt="">
+                    </div>
+                </center>
+            </div>
+            <div class="col s4 white-text">
+                <center>
+                        <h4><b>SECRET DELIVERY</b></h4>
+                        <p>ORDER ANY PACKAGE AND RECEIVE</p>
+                        <h4><b>प्रोडक्ट की गुप्त डिलीवरी <br>
+                        भारत भर में</b></h4>
+                </center>
+            </div>
+            <div class="col s4" style="padding:0px;">
+                <img style="width:100%;" src="http://lingbooster.in/content/images/secret-delivery-pic.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s10 offset-s1">
+            <div class="col s6">
             <center>
-                <br><br><br><br>
-                <h3><b>GROUP TRAINING PROGRAMS</b></h3>
-                <h5>GET 40% OFF ON 1YEAR PLAN</h5>
-                <br>
-                <p class="container flow-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta repellendus quisquam omnis nobis, nemo incidunt repellat ipsa, quis quidem dicta velit labore minus. Sequi quo unde suscipit excepturi dolor.
-                </p>
-                <br><br><br><br>
-
+                <img src="http://lingbooster.in/Content/images/2month-package.jpg" alt="">
             </center>
         </div>
-        <footer class="page-footer white">
-            <div class="container">
-              <center>
-                <div class="row">
-                    <img src="http://lingbooster.in/content/images/fast-delivery-pic.png" alt="">
-                `</div>
-              </center>
-            </div>
-            <div class="footer-copyright">
-              <div class="container row">
-              <center>
-              <a class="black-text" href="#!">More Links &nbsp;&nbsp;|&nbsp;&nbsp;</a>
-              <a class="black-text" href="#!">More Links &nbsp;&nbsp;|&nbsp;&nbsp;</a>
-              <a class="black-text" href="#!">More Links</a>
-              <br><br>
-              <img src="http://lingbooster.in/content/images/logo-bottom.jpg" alt=""><br>
-              <h6><b class="grey-text">© 2014 Copyright LingPill All Right Reserved</b></h6>
+        <div class="col s6">
+            <center>
+                <img src="http://lingbooster.in/Content/images/4month-package.jpg" alt="">
             </center>
-              </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <center>
+            <br><br>
+                <h4><b>SATISFACTION ACHIEVED BY</b></h4>
+               <h2 class="blue-text text-darken-4" style="font-stretch:ultra-condensed"><b> OUR CUSTOMERS IS PHENOMENAL</b></h2>
+                <p>They have added spice to their sex lives with these energy pills.</p>
+        </center>
+        <div class="col s10 offset-s1">
+            <div class="col s6">
+                <img src="http://lingbooster.in/content/images/customer-satisfaction-pic.jpg" alt="">
             </div>
-          </footer>
+            <div class="col s5 offset-s1">
+                <div class="col s12" style="height:100px;"></div>
+                <div> <b>Ling Booster वास्तव में कितना अच्छा काम काम करता है?</b> </div>
+                <br><br>
+                    <div class="carousel carousel-slider" data-indicators="true">
+                            <div class="carousel-item" href="#one!">
+                                <img style="width:120px;" src="http://lingbooster.in/content/images/client-img1.png" alt="">
+                                <div><i>“कृतज्ञता व्यक्त करने के लिए मेरे पास शब्द नहीं हैं Ling Booster ने वास्तव में मेरे रिश्ते को बचाया है मैं बिस्तर में 2-3 मिनट से अधिक समय तक रोक नहीं पा रहा था और मेरी पत्नी बहुत परेशान थी। मैंने अपना आत्मविश्वास खो दिया था तो मुझे एक वेबसाइट से इस उत्पाद के बारे में पता चल गया। मैंने आर्डर दे दिया और निर्धारित समय में प्राप्त भी हो गया । मैंने इसे निर्देशानुसार लेना शुरू कर दिया और हर गुजरते दिन के साथ मेरे यौन जीवन में सुधार हुआ। मेरी रहने की शक्ति अस्थिर हो गई और लिंग का आकार भी बढ़ गया। मेरी पत्नी अब मेरे साथ बहुत खुश हैं क्योंकि मैं रात भर उसको अधिकतम खुशी प्रदान कर सकता हूं। धन्यवाद!”</i></div>
+                            </div>
+                            <div class="carousel-item " href="#two!">
+                                <img style="width:120px;" src="http://lingbooster.in/content/images/client-img2.png" alt="">
+                                <div><i>“What a wonderful supplement this Ling Booster is! When I told one of my friends about the problems in my sex life then he suggested me this product. I had doubts yet I ordered it because I was desperate to perform better in bed and to satisfy my girlfriend. The results were unbelievable. Within 4 weeks of use, I felt stunning changes. I started getting stable and stronger erections as well as improved my stamina a lot. Now, I can enjoy sex drives for 1 hour continuously and my girlfriend is all pleased with me.</i></div>
+                            </div>
+                            <div class="carousel-item" href="#three!">
+                                <img style="width:120px;" src="http://lingbooster.in/content/images/client-img3.png" alt="">
+                                <div><i>“मेरे रिश्ते में खुशी को वापस लाने के लिए Ling Booster और इसके निर्माता को बहुत बहुत धन्यवाद| यह मेरे यौन जीवन में एक जीवन-परिवर्तन तत्व साबित हुआ है जो इस औषधि से पहले बहुत ही उबाऊ और निराशाजनक थी । इस पुरुष वृद्धि पूरक के पाठ्यक्रम को पूरा करने के बाद इसने मेरे लिंग को 5 इंच से 7.1 इंच तक बढ़ा दिया गया है और अधिक शक्तिशाली बना दिया है । अब न केवल मैं अपने साथी की हर इच्छा को पूरा करता हूं, बल्कि हम दोनों पहले से कहीं ज्यादा आवेशपूर्ण और गहन सेक्स का आनंद उठाते हैं।</i></div>
+
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s10 offset-s1">
+            <center><h4><b>Obvious Confirmation of Our Satisfied Clients</b></h4>
+            <div><b>The accompanying pictures and proclamations were sent in by our devoted clients:</b></div></center>
+            <br><br>
+            <div class="col s4">
+                <center>
+                    <img src="http://lingbooster.in/content/images/testi-pic1.png" alt="">
+                </center>
+                <br><br>
+                <div style="text-align:justify;">My wife had lot of complaints with me after our marriage. The reason was my small penis and poor stamina during sex. I used many types of products but nothing actually worked. In fact, some of them caused side effects. Then I came to know about Ling Booster and ordered it. Since I have started consuming this product, I have got fantastic results. My penis size has been increased and my performance has been increased as well. My wife does not complain now, she just pours lots of love upon me. Superb product! <br><br>
+                        हमारी शादी के बाद मेरी पत्नी के पास बहुत शिकायते थी कारण मेरा छोटा लिंग और सेक्स के दौरान कम ऊर्जा । मैंने कई प्रकार के उत्पादों का इस्तेमाल किया लेकिन वास्तव में कुछ भी काम नहीं किया। बल्कि , उनमें से कुछ दुष्प्रभावों का कारण बने। फिर मुझे Ling Booster के बारे में पता चला और इसे आर्डर किया । चूंकि मैंने इस उत्पाद का उपभोग करना शुरू कर दिया है, इसलिए मुझे शानदार परिणाम मिल गए हैं। मेरे लिंग का आकार बढ़ा है और मेरे प्रदर्शन में भी बढ़ोतरी हुई है। मेरी पत्नी अब शिकायत नहीं करती है, वह सिर्फ मुझ पर बहुत प्यार दिखाती है शानदार उत्पाद</div>
+            </div>
+            <div class="col s4">
+                <center>
+                    <img src="http://lingbooster.in/content/images/testi-pic2.png" alt="">
+                </center>
+                <br><br>
+                <div style="text-align:justify;">I have regained my lost confidence with the help of Ling Booster. First time in life, I feel like a real man. I can keep going on during sex for hours without ejaculating as my stamina and potency has been enhanced by miles. My penis is now more strong and harder and can remain erected for long time. Thanks a lot! <br><br>
+                        Ling Booster की सहायता से मैंने अपना खोया आत्मविश्वास पुनः प्राप्त कर लिया है I जीवन में पहली बार, मैं एक असली आदमी की तरह लग रहा हूँ | सेक्स के दौरान घंटो तक चल रहा है भरपूर जोश और ताक़त साथ वो भी बिना स्खलन के । मेरा लिंग अब अधिक मजबूत और कठोर है और लंबे समय तक बने रह सकता है। आपका बहुत बहुत धन्यवाद!</div>
+            </div>
+            <div class="col s4">
+                <center>
+                    <img src="http://lingbooster.in/content/images/testi-pic3.png" alt="">
+                </center>
+                <br><br>
+                <div style="text-align:justify;">Ling Booster has completely turned around my sex life. Now I can provide my girlfriend that joys which she desires and deserves. With my longer and bigger penis and improved vitality, I take her to the height of excitement and ecstasy. Her loud screams and moaning is the proof of how much she enjoys sex with me. <br><br>
+                        Ling Booster ने मेरी सेक्स लाइफ पूरी तरह से बदल दी है, अब मैं अपनी गर्लफ्रेंड को, जो वह खुशियाँ चाहती हैं और हकदार हैं प्रदान कर सकता हूं ! मेरे लंबे और बड़े लिंग और बेहतर जीवन शक्ति के साथ, मैं उसे उत्तेजना और परमानंद की ऊंचाई पर ले जाता हूं। उसका ज़ोर से चिल्लाना और मुहब्बत करना यह सबूत है कि वह मेरे साथ सेक्स का कितना आनंद लेती है</div>
+            </div>
+        </div>
+    </div>
 
 
-        
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/navbar.js"></script>
-        
-        <script>
-            $(document).ready(function () {
 
-                
+    
 
 
 
 
 
-                $('.button-collapse').sideNav();
+    <div class="row black">
+        <div class="container red-text">
+            <br>
+            <br>
+            <h4>
+                <b>OUR HISTORY</b>
+            </h4>
+            <h1>
+                <b>ABOUT US</b>
+            </h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col s4">
+                <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/736x/25/31/fb/2531fbc211b8e73f414a0d9a4fd8c6ba--eros-passion.jpg');background-size:cover;">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="white-text">
+                        <b>OUR HISTORY</b>
+                    </h5>
+                    <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam
+                        corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
+                    <br>
+                    <br>
+                    <a href="" class="ui button red">READ MORE</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/564x/62/18/58/62185842b6ffc8e3b48ab5a71b7d8ccb--hot-couples-romantic-couples.jpg');background-size:cover;">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="white-text">
+                        <b>OUR HISTORY</b>
+                    </h5>
+                    <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam
+                        corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
+                    <br>
+                    <br>
+                    <a href="" class="ui button red">READ MORE</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card" style="padding:10px;background-image: url('https://i.pinimg.com/originals/9e/28/a8/9e28a8a5fdb0bb0c70e6d81a248db799.jpg');background-size:cover;">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="white-text">
+                        <b>OUR HISTORY</b>
+                    </h5>
+                    <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ab quos quisquam architecto aperiam
+                        corrupti consequatur! Error, laboriosam? Neque, fuga.</p>
+                    <br>
+                    <br>
+                    <a href="" class="ui button red">READ MORE</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-image:url('http://www.newsnazar.com/wp-content/uploads/2015/12/romance.jpg');background-size:cover;background-attachment: fixed;">
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>
+                <b>GROUP TRAINING PROGRAMS</b>
+            </h3>
+            <h5>GET 40% OFF ON 1YEAR PLAN</h5>
+            <br>
+            <p class="container flow-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta repellendus quisquam omnis nobis, nemo incidunt
+                repellat ipsa, quis quidem dicta velit labore minus. Sequi quo unde suscipit excepturi dolor.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
 
-                
+        </center>
+    </div>
+    <footer class="page-footer white">
+        <div class="container">
+            <center>
+                <div class="row">
+                    <img src="http://lingbooster.in/content/images/fast-delivery-pic.png" alt=""> `
+                </div>
+            </center>
+        </div>
+        <div class="footer-copyright">
+            <div class="container row">
+                <center>
+                    <a class="black-text" href="#!">More Links &nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                    <a class="black-text" href="#!">More Links &nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                    <a class="black-text" href="#!">More Links</a>
+                    <br>
+                    <br>
+                    <img src="http://lingbooster.in/content/images/logo-bottom.jpg" alt="">
+                    <br>
+                    <h6>
+                        <b class="grey-text">© 2014 Copyright LingPill All Right Reserved</b>
+                    </h6>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+                $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+                setInterval(()=>{$('.carousel').carousel('next');},3000);
 
 
 
 
 
-            });
-        </script>
+            $('.button-collapse').sideNav();
+
+
+
+
+
+
+
+        });
+    </script>
 
 </body>
 

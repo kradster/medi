@@ -4,9 +4,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var st = $(this).scrollTop();
         if(st>0){
-          nav1.hide(300);  
+          nav1.css('height','0px');
         }else{
-            nav1.show(300);
+          nav1.css('height','70px');
         }
     });
 });
